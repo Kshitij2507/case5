@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T10:45:58.134Z",
+        "line": 23,
+        "name": "opening the login",
+        "description": "",
+        "id": "testme-login;opening-the-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14595838200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open Site in browser",
+            "match": {
+              "location": "case2.site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300268500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the Lalitha and Password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 10
+                },
+                {
+                  "val": "Password123",
+                  "offset": 22
+                }
+              ],
+              "location": "case2.userdetails(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600677900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on login",
+            "match": {
+              "location": "case2.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T10:46:13.642Z",
+        "line": 24,
+        "name": "opening the login",
+        "description": "",
+        "id": "testme-login;opening-the-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14706397700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open Site in browser",
+            "match": {
+              "location": "case2.site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 248978400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the Lalitha and Password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 10
+                },
+                {
+                  "val": "Password123",
+                  "offset": 22
+                }
+              ],
+              "location": "case2.userdetails(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293493200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on login",
+            "match": {
+              "location": "case2.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestMe Login",
+    "description": "I want to Login using",
+    "id": "testme-login",
+    "keyword": "Feature",
+    "uri": "classpath:cucumbercase2/case2.feature",
+    "tags": []
+  }
+]
